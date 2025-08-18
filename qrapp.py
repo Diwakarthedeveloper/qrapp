@@ -1,7 +1,7 @@
 import streamlit as st
 import pyqrcode
 
-st.title("QR Code Generator")
+st.title("Your QR Code Generator")
 
 name = st.text_input("Product name")
 details = st.text_area("Product details")
