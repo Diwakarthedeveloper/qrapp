@@ -1,12 +1,12 @@
 import streamlit as st
 import pyqrcode
 
-st.title("QR Code Generator")
+st.title("Your QR Code Generator")
 
 name = st.text_input("Product name")
 details = st.text_area("Product details")
 url = st.text_input("Product URL")
-years = st.selectbox("Number of years", list(range(1, 16)))
+years = st.selectbox("Number of Years", list(range(1, 16)))
 if st.button("Submit"):
     # Ensure the url starts with http:// or https://
     if url and not url.startswith(("http://", "https://")):
