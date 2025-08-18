@@ -1,0 +1,11 @@
+click==8.0.4
+GitPython==3.1.45
+packaging==25.0
+pandas==2.2.3
+pathlib==1.0.1
+pillow==11.3.0
+pypng==0.20220715.0
+PyQRCode==1.2.1
+PySimpleGUI==5.0.8.3
+streamlit==1.48.1
+watchdog==6.0.0
